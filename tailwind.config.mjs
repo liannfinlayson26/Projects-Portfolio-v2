@@ -11,7 +11,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+      sans: "var(--font-geist-sans), sans-serif",
+    },
+    spacing: {
+      100: '15rem',
     },
   },
+},
   plugins: [],
 };
