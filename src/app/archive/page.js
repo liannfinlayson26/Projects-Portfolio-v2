@@ -77,9 +77,6 @@ export default function Archive() {
                             <li className="my-1 mr-1.5">
                                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">x</div>
                             </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">x</div>
-                            </li>
                         </ul>
                     </td>
                     <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
@@ -275,7 +272,7 @@ export default function Archive() {
                                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
                         </li>
                         <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Jypeter Notebook</div>
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Jupyter Notebook</div>
                         </li>
                         </ul>
                     </td>
