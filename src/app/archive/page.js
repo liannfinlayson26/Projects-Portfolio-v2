@@ -64,23 +64,29 @@ export default function Archive() {
                       <div className="translate-y-px">2025</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Project Name</div>
+                      <div>Biodiversity Analysis</div>
                     </td>
                     <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
                         <ul className="flex -translate-y-1.5 flex-wrap">
-                            <li className="my-1 mr-1.5">
+                        <li className="my-1 mr-1.5">
                                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
                             </li>
                             <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">x</div>
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">pandas</div>
                             </li>
                             <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">x</div>
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">seaborn</div>
+                            </li>
+                            <li className="my-1 mr-1.5">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">numpy</div>
+                            </li>
+                            <li className="my-1 mr-1.5">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Jupyter Notebook</div>
                             </li>
                         </ul>
                     </td>
                     <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                      <a href="#" className="text-teal-300 hover:underline">
+                      <a href="https://github.com/liannfinlayson26/biodiversity-analysis.git" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
                         View code
                       </a>
                     </td>
