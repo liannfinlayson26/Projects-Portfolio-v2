@@ -1,4 +1,4 @@
-export default function Archive() {
+export default function Certifications() {
     return (
       <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
         <div className="relative group/spotlight">
@@ -44,7 +44,7 @@ export default function Archive() {
   
               {/* Page Title */}
               <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-                All Projects
+                Courses and Certifications
               </h1>
   
               {/* Table */}
@@ -53,7 +53,8 @@ export default function Archive() {
                   <tr>
                     <th className="py-4 pr-8 text-sm font-semibold text-slate-200">Year</th>
                     <th className="py-4 pr-8 text-sm font-semibold text-slate-200">Project</th>
-                    <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Built with</th>
+                    <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Platform</th>
+                    <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Institution</th>
                     <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Links</th>
                   </tr>
                 </thead>
@@ -64,7 +65,7 @@ export default function Archive() {
                       <div className="translate-y-px">2025</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Biodiversity Analysis</div>
+                      <div>CS50</div>
                     </td>
                     <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
                         <ul className="flex -translate-y-1.5 flex-wrap">

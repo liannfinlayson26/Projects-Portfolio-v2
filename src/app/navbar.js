@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav className="nav hidden lg:block" aria-label="In-page jump links">
       <ul className="mt-16 w-max">
-        {["about", "projects", "experience"].map((section) => (
+        {["about", "projects", "experience", "certifications"].map((section) => (
           <li key={section}>
             <a
               className={`group flex items-center py-3 ${
