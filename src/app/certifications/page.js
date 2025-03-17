@@ -52,270 +52,659 @@ export default function Certifications() {
                 <thead className="sticky top-0 z-10 border-b border-slate-300/10 bg-slate-900/75 px-6 py-5 backdrop-blur">
                   <tr>
                     <th className="py-4 pr-8 text-sm font-semibold text-slate-200">Year</th>
-                    <th className="py-4 pr-8 text-sm font-semibold text-slate-200">Project</th>
-                    <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Platform</th>
+                    <th className="py-4 pr-8 text-sm font-semibold text-slate-200">Certification</th>
+                    <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Modules</th>
                     <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Institution</th>
-                    <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Links</th>
+                    <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">Certificate</th>
                   </tr>
                 </thead>
-  
+
                 <tbody>
-                  <tr className="border-b border-slate-300/10 last:border-none">
+                <tr className="border-b border-slate-300/10 last:border-none">
                     <td className="py-4 pr-4 align-top text-sm">
                       <div className="translate-y-px">2025</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>CS50</div>
+                      <div>Google IT Automation with Python</div>
                     </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Crash Course on Python
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-yellow-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Using Python to Interact with the Operating System
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-gray-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Introduction to Git and GitHub
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-gray-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Troubleshooting and Debugging Techniques
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-gray-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Configuration Management and the Cloud
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-gray-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Automating Real-World Tasks with Python
+                    </div>
+                    </td>
+                    
                     <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
+                        <ul className="space-y-1">
                         <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">pandas</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">seaborn</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">numpy</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">matplotlib</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Jupyter Notebook</div>
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Google</div>
                             </li>
                         </ul>
                     </td>
+
+
                     <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                      <a href="https://github.com/liannfinlayson26/biodiversity-analysis/blob/main/biodiversity.ipynb" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
+                    <a href="/google_python_certification.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
+                      </a>
+                    </td>
+                  </tr> 
+                
+                
+                <tr className="border-b border-slate-300/10 last:border-none">
+                    <td className="py-4 pr-4 align-top text-sm">
+                      <div className="translate-y-px">2025</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
+                      <div>CS50's Introduction to Computer Science</div>
+                    </td>
+
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Scratch
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    C
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Arrays
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Algorithms
+                    </div>
+                   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Memory
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Data Structures
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Python
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    SQL
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    HTML, CSS, JavaScript
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Flask
+                    </div>
+
+                    </td>
+                    
+                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
+                        <ul className="space-y-1">
+                        <li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">HarvardX</div>
+                            </li>
+                        </ul>
+                    </td>
+
+
+                    <td className="hidden py-4 pr-4 align-top text-sm  sm:table-cell">
+                    <a href="/cs50x_certification.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
                       </a>
                     </td>
                   </tr>
 
+                  
                   <tr className="border-b border-slate-300/10 last:border-none">
                     <td className="py-4 pr-4 align-top text-sm">
                       <div className="translate-y-px">2025</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Airline Analysis</div>
+                      <div>Python for Data Analysis: Pandas & Numpy</div>
                     </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">pandas</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">seaborn</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">numpy</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">matplotlib</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Jupyter Notebook</div>
-                            </li>
-                        </ul>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                    <a href="https://github.com/liannfinlayson26/airline-analysis/blob/main/Airline%20Analysis%20copy.ipynb" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
-                      </a>
-                    </td>
-                  </tr>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Numpy arrays
+                    </div>
 
-                  <tr className="border-b border-slate-300/10 last:border-none">
-                    <td className="py-4 pr-4 align-top text-sm">
-                      <div className="translate-y-px">2025</div>
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Numpy built-in methods and functions
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Mathematical Operations
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Arrays slicing and indexing
+                    </div>
+                   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Pandas with CSV and HTML data
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Pandas Operations
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Pandas with functions
+                    </div>
+                    
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Sorting and ordering in Pandas
+                    </div>
                     </td>
-                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Trivia Game</div>
-                    </td>
+  
                     <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">SQLite3</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Flask</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Javascript</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">HTML</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Bootstrap</div>
-                            </li>
-                            <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">CSS</div>
+                        <ul className="space-y-1">
+                        <li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Coursera</div>
                             </li>
                         </ul>
                     </td>
+
+
                     <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                    <a href="https://github.com/liannfinlayson26/trivia-game.git" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
-                      </a>
-                      <br />
-                      <a href="https://trivia-game-yu1e.onrender.com" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View web page
+                    <a href="/data_analysis_pa_np.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
                       </a>
                     </td>
                   </tr>  
 
                   <tr className="border-b border-slate-300/10 last:border-none">
                     <td className="py-4 pr-4 align-top text-sm">
+                      <div className="translate-y-px">2025</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
+                      <div>Python for Data Visualization:Matplotlib & Seaborn </div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Line plots
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Scatterplots
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Pie charts
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Histograms
+                    </div>
+                   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Subplots
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    3D Plots
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Seaborn Scatterplots & Countplots
+                    </div>
+                    
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Seaborn Pairplots
+                    </div>
+                    
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Seaborn Heatmaps
+                    </div>
+                    </td>
+  
+                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
+                        <ul className="space-y-1">
+                        <li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Coursera</div>
+                            </li>
+                        </ul>
+                    </td>
+
+                    
+                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
+                    <a href="/data_analysis_matplotlib.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
+                      </a>
+                    </td>
+                  </tr> 
+
+                  <tr className="border-b border-slate-300/10 last:border-none">
+                    <td className="py-4 pr-4 align-top text-sm">
+                      <div className="translate-y-px">2025</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
+                      <div>Google Analytics Certification</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Get Started using GA4
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Manage GA4 Data and Learn to Read Reports
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Dive Deeper into GA4 Data and Reports
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Use GA4 with Other Tools and Data Sources
+                    </div>
+                    </td>
+                    
+                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
+                        <ul className="space-y-1">
+                        <li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Google</div>
+                            </li>
+                        </ul>
+                    </td>
+
+
+                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
+                    <a href="/google_analytics_certification.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
+                      </a>
+                    </td>
+                  </tr>
+
+
+                  <tr className="border-b border-slate-300/10 last:border-none">
+                    <td className="py-4 pr-4 align-top text-sm">
                       <div className="translate-y-px">2024</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Shut the Box - Three Piece Game</div>
+                      <div>CS50 Computer Science for Databases using SQL</div>
                     </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Querying
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Relating
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Designing
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Writing
+                    </div>
+                   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Viewing
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Optimizing
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Scaling
+                    </div>
+                    </td>
+                    
                     <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
+                        <ul className="space-y-1">
                         <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Scratch</div>
-                            </li>  
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">HarvardX</div>
+                            </li>
                         </ul>
                     </td>
+
+
                     <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                      <a href="https://scratch.mit.edu/projects/1067097561" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View web page
+                    <a href="/cs50_sql_all.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
+                      </a>
+                    </td>
+                  </tr>   
+
+                  <tr className="border-b border-slate-300/10 last:border-none">
+                    <td className="py-4 pr-4 align-top text-sm">
+                      <div className="translate-y-px">2023</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
+                      <div>Lean Management Certification</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    7+1
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Overprocessing
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Waiting
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Motion and Transport
+                    </div>
+                   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Defect/Inspections
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Inventory
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    8th form of waste
+                    </div>
+                    
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Muda Mura Muri
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Value stream
+                    </div>
+                    </td>
+                    
+                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
+                        <ul className="space-y-1">
+                        <li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">SixSigma Ac.</div>
+                            </li>
+                        </ul>
+                    </td>
+
+
+                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
+                    <a href="/2023_lean.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
                       </a>
                     </td>
                   </tr>  
 
                   <tr className="border-b border-slate-300/10 last:border-none">
                     <td className="py-4 pr-4 align-top text-sm">
-                      <div className="translate-y-px">2024</div>
+                      <div className="translate-y-px">2023</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Cousera Database Analysis</div>
+                      <div>Build Solutions with Power Apps, Power Automate & SharePoint</div>
                     </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">mySQL</div>
-                        </li>
-                        </ul>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                      <a href="https://github.com/liannfinlayson26/Coursera-Courses-Analysis-SQL.git" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
-                      </a>
-                    </td>
-                  </tr> 
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    SharePoint Crash Course
+                    </div>
 
-                  <tr className="border-b border-slate-300/10 last:border-none">
-                    <td className="py-4 pr-4 align-top text-sm">
-                      <div className="translate-y-px">2024</div>
-                    </td>
-                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>World Layoffs Database Analysis</div>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">mySQL</div>
-                        </li>
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Docker</div>
-                        </li>
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Tableau</div>
-                        </li>  
-                        </ul>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                      <a href="https://github.com/liannfinlayson26/World-Layoffs-Analysis-SQL.git" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
-                      </a>
-                      <br />
-                      <a href="https://public.tableau.com/app/profile/liann.finlayson4647/viz/WorldLayoffs_17186015941360/Dashboard1" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                      View dashboard
-                      </a>
-                    </td>
-                  </tr>   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Power Automate Crash Course
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Power Apps Crash Course
+                    </div>
+                    
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Power Apps to SharePoint
+                    </div>
+                   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    SharePoint to Power Automate
+                    </div>
 
-                   <tr className="border-b border-slate-300/10 last:border-none">
-                    <td className="py-4 pr-4 align-top text-sm">
-                      <div className="translate-y-px">2024</div>
-                    </td>
-                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Dental Clinic Database Analysis</div>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">mySQL</div>
-                        </li>
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Docker</div>
-                        </li>
-                        </ul>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                      <a href="https://github.com/liannfinlayson26/dental_clinic_sql.git" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
-                      </a>
-                    </td>
-                  </tr>   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Power Automate to Power Apps
+                    </div>
 
-                    <tr className="border-b border-slate-300/10 last:border-none">
-                    <td className="py-4 pr-4 align-top text-sm">
-                      <div className="translate-y-px">2024</div>
-                    </td>
-                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Financial Extraction Data</div>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
-                        </li>
-                        <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Jupyter Notebook</div>
-                        </li>
-                        </ul>
-                    </td>
-                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                    <a href="https://github.com/liannfinlayson26/Financial-Web-Extract-Python/blob/main/README.md" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
-                      </a>
-                    </td>
-                  </tr>   
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Third Party Interactions
+                    </div>
+                    
 
-                  <tr className="border-b border-slate-300/10 last:border-none">
-                    <td className="py-4 pr-4 align-top text-sm">
-                      <div className="translate-y-px">2024</div>
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-green-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    User Interface Integrations
+                    </div>
                     </td>
-                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Python Essentials</div>
-                    </td>
+                    
                     <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
+                        <ul className="space-y-1">
                         <li className="my-1 mr-1.5">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
-                        </li>
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 "></div>
+                            </li>
                         </ul>
                     </td>
+
+
                     <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
-                      <a href="https://github.com/liannfinlayson26/Essential-Learning-Portfolio-Python.git" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
-                        View code
+                    <a href="/2023_powerautomate.pdf" rel="noreferrer noopener" target="_blank" className="text-teal-300 hover:underline">
+                        View certificate
                       </a>
                     </td>
-                  </tr> 
+                  </tr>  
+
+                
 
                 </tbody>
               </table>
