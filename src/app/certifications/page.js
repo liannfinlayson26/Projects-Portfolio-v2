@@ -65,6 +65,59 @@ export default function Certifications() {
                       <div className="translate-y-px">2025</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
+                      <div>Mathematics for Machine Learning</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-yellow-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Linear Algebra
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-gray-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Multivariate Calculus
+                    </div>
+
+                    <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-5 w-5 bg-gray-500 rounded-full p-1">
+                    <path fillRule="evenodd" d="M4.5 12.75l6 6 9-12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    PCA
+                    </div>
+
+                    </td>
+                    
+                    <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
+                        <ul className="space-y-1">
+                        <li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Imperial</div>
+                            </li>
+                            <li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">College</div>
+                            </li><li className="my-1 mr-1.5">
+                                <div className="inline-block rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">London</div>
+                            </li>
+                        </ul>
+                    </td>
+
+
+                    <td className="hidden py-4 pr-4 align-top text-sm sm:table-cell">
+                      On going
+                    </td>
+                  </tr> 
+
+
+
+                <tr className="border-b border-slate-300/10 last:border-none">
+                    <td className="py-4 pr-4 align-top text-sm">
+                      <div className="translate-y-px">2025</div>
+                    </td>
+                    <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
                       <div>Google IT Automation with Python</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200 text-sm">
