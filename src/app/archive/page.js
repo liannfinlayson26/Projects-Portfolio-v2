@@ -200,7 +200,7 @@ export default function Archive() {
                       <div className="translate-y-px">2024</div>
                     </td>
                     <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
-                      <div>Cousera Database Analysis</div>
+                      <div>Coursera Database Analysis</div>
                     </td>
                     <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
                         <ul className="flex -translate-y-1.5 flex-wrap">
